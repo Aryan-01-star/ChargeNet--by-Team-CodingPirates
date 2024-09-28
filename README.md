@@ -10,7 +10,7 @@ Node.js (version 14 or higher)
 npm or yarn (for managing dependencies)
 
 # Clone the Repository
-bash
+
 Copy code
 git clone https://github.com/your-username/ChargeNet.git
 cd ChargeNet
@@ -18,12 +18,12 @@ cd ChargeNet
 # Install Dependencies
 Run the following command to install all required dependencies:
 
-bash
+
 Copy code
 npm install
 Alternatively, if you're using yarn:
 
-bash
+
 Copy code
 yarn install
 
@@ -34,71 +34,71 @@ yarn install
 Core Dependencies:
 # React (react, react-dom) – UI library for building the frontend.
 
-bash
+
 Copy code
 npm install react react-dom
 Vite – A fast build tool and dev server.
 
-bash
+
 Copy code
 npm install vite
 Material-UI (MUI) – For the user interface components.
 
-bash
+
 Copy code
 npm install @mui/material @emotion/react @emotion/styled
 # Axios – For making HTTP requests (used to fetch EV charging station data).
 
-bash
+
 Copy code
 npm install axios
 React Router (optional, for navigation and routing)
 
-bash
+
 Copy code
 npm install react-router-dom
 React-Leaflet and Leaflet – For integrating maps into the UI and showing EV station markers.
 
-bash
+
 Copy code
 npm install react-leaflet leaflet
 Leaflet CSS – Leaflet CSS file for map styles.
 
-bash
+
 Copy code
 npm install leaflet
 Optional Dependencies:
 React Icons (for icons like search, refresh, etc.)
 
-bash
+
 Copy code
 npm install @mui/icons-material
 SWC (Speedy Web Compiler) – Integrated with Vite for faster builds.
 
 # ESLint & Prettier (for code linting and formatting)
 
-bash
+
 Copy code
 npm install eslint prettier --save-dev
 React-Responsive (for handling media queries and responsiveness)
 
-bash
+
 Copy code
 npm install react-responsive
 Service Worker/PWA Support (optional, for making the app a progressive web app)
 
-bash
+
 Copy code
 npm install vite-plugin-pwa
 Intel Libraries for AI and Performance Optimizations:
 Intel® MKL (for AI performance optimizations)
 
-bash
+
 Copy code
 conda install -c intel mkl
 Intel® DAAL (for data analytics optimizations)
 
-bash
+
 Copy code
 conda install -c intel daal
 OpenVINO™ Toolkit (for optimized deep learning inference)
@@ -110,13 +110,13 @@ NREL API Key (for fetching EV charging stations)
 Sign up for an API key from NREL's Developer Network.
 
 Create a .env file in the root of your project and add:
-bash
+
 Copy code
 REACT_APP_NREL_API_KEY=your-api-key-here
 Running the Development Server
 After installing the dependencies, run the following command to start the development server:
 
-bash
+
 Copy code
 npm run dev
 This will open the app in your browser at http://localhost:3000.
@@ -124,7 +124,7 @@ This will open the app in your browser at http://localhost:3000.
 # Building the App for Production
 To create an optimized production build of the app:
 
-bash
+
 Copy code
 npm run build
 The built files will be located in the dist/ folder.
@@ -132,12 +132,12 @@ The built files will be located in the dist/ folder.
 # Linting and Formatting
 For consistent code style, you can run the linters:
 
-bash
+
 Copy code
 npm run lint
 To format the code:
 
-bash
+
 Copy code
 npm run format
 
